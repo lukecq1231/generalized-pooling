@@ -6,7 +6,7 @@ If you use this code as part of any published research, please acknowledge the f
 Qian Chen, Zhen-Hua Ling, Xiaodan Zhu. _COLING (2018)_ 
 
 ```
-@InProceedings{Chen-Qian:2018:ACL,
+@InProceedings{Chen-Qian:2018:COLING,
   author    = {Chen, Qian and Ling, Zhen-Hua and Zhu, Xiaodan},
   title     = {Enhancing Sentence Embedding with Generalized Pooling},
   booktitle = {Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)},
