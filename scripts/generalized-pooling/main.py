@@ -457,7 +457,7 @@ def init_params(options, worddicts):
 
     dim_emb = options['dim_word']+3*options['char_nout']
 
-    for l in range(3):
+    for l in range(options['encoder_layers']):
         if l == 0:
             params = get_layer(options['encoder'])[0](options, params,
                                                       prefix='encoder_{}'.format(str(l+1)),
@@ -565,7 +565,7 @@ def build_model(tparams, options):
     if options['use_dropout']:
         emb2 = dropout_layer(emb2, use_noise, trng)
 
-    for l in range(3):
+    for l in range(options['encoder_layers']):
         if l == 0:
             ctx1 = emb1
             ctx2 = emb2
