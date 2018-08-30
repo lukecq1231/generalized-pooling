@@ -843,7 +843,7 @@ def train(
     model_options['char_nout'] = 100
     model_options['char_k_rows'] = [1, 3, 5]
     model_options['char_k_cols'] = model_options['dim_char_emb']
-    model_options['num_heads'] = 5
+    model_options['num_heads'] = num_heads
 
     # load dictionary and invert them
     with open(dictionary, 'rb') as f:
