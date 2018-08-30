@@ -10,7 +10,7 @@ if __name__ == '__main__':
     reload_          = False,
     encoder_layers   = 3,
     decoder_layers   = 3,
-    num_heads        = 6,
+    num_heads        = 5,
     dim_word         = 300,
     dim              = 600,
     patience         = 7,
